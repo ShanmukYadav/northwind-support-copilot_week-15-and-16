@@ -6,7 +6,7 @@ Centralizes all configurable parameters.
 from pathlib import Path
 
 # ------------------------------------------------------------------
-# Project Paths
+# Project Paths & Database
 # ------------------------------------------------------------------
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -14,6 +14,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CORPUS_DIR = PROJECT_ROOT / "corpus"
 
 CHROMA_DIR = PROJECT_ROOT / "app" / ".chroma_db"
+
+COLLECTION = "northwind_rag"
 
 # ------------------------------------------------------------------
 # Embedding Model

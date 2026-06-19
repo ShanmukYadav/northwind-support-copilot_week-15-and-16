@@ -36,7 +36,7 @@ CHUNK_OVERLAP = 150
 
 TOP_K = 6
 
-MAX_CHUNKS_PER_DOC = 2
+MAX_CHUNKS_PER_DOC = 15
 
 # ------------------------------------------------------------------
 # LLM

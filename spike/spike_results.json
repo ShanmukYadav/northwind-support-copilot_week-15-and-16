@@ -1,0 +1,181 @@
+[
+  {
+    "id": "q01",
+    "flavor": "easy",
+    "question": "What is the conceptual model used by Linear?",
+    "expected_docs": [
+      "conceptual-model"
+    ],
+    "retrieved_docs": [
+      "start-guide",
+      "conceptual-model",
+      "import-issues",
+      "project-overview"
+    ],
+    "top_score": 0.5756,
+    "top_chunk": "https://www.youtube.com/playlist?list=PLP9v0Y4zla9vG7k8e279bSz5hUl0oXlMH): playlist of onboarding videos covering the most common day-to-day workflows * [AI workflows](https://www.youtube.com/playlist",
+    "status": "HIT",
+    "latency_ms": 24.3
+  },
+  {
+    "id": "q02",
+    "flavor": "easy",
+    "question": "How do I configure workflows in Linear?",
+    "expected_docs": [
+      "configuring-workflows"
+    ],
+    "retrieved_docs": [
+      "start-guide",
+      "conceptual-model",
+      "import-issues",
+      "teams"
+    ],
+    "top_score": 0.6651,
+    "top_chunk": "https://www.youtube.com/watch?v=9Q5BoiIFBiY&list=PLP9v0Y4zla9vG7k8e279bSz5hUl0oXlMH&index=1) Watch a high-level walkthrough of the Linear environment. * [**Demo Linear**](https://linear.app/demo) Expl",
+    "status": "MISS",
+    "latency_ms": 19.5
+  },
+  {
+    "id": "q03",
+    "flavor": "multi_hop",
+    "question": "How are projects different from teams in Linear?",
+    "expected_docs": [
+      "projects",
+      "teams"
+    ],
+    "retrieved_docs": [
+      "import-issues",
+      "conceptual-model",
+      "teams",
+      "start-guide"
+    ],
+    "top_score": 0.6722,
+    "top_chunk": "level concept, which contains one or many [teams](https://linear.app/docs/teams). We recommend that each company using Linear uses only one workspace. [Issues](https://linear.app/docs/creating-issues)",
+    "status": "PARTIAL",
+    "latency_ms": 15.4
+  },
+  {
+    "id": "q04",
+    "flavor": "easy",
+    "question": "How do I triage incoming issues?",
+    "expected_docs": [
+      "triage"
+    ],
+    "retrieved_docs": [
+      "conceptual-model",
+      "parent-and-sub-issues",
+      "triage",
+      "configuring-workflows"
+    ],
+    "top_score": 0.5696,
+    "top_chunk": " described in plain language. Each issue must belong to a single Linear team, has an identifier constructed of its team ID and number, like \u201cENG-123\u201d. Issues are required to have a title and status \u2013 ",
+    "status": "HIT",
+    "latency_ms": 16.0
+  },
+  {
+    "id": "q05",
+    "flavor": "easy",
+    "question": "How can I organize issues using labels?",
+    "expected_docs": [
+      "labels"
+    ],
+    "retrieved_docs": [
+      "conceptual-model",
+      "labels",
+      "parent-and-sub-issues"
+    ],
+    "top_score": 0.6569,
+    "top_chunk": "ever you do something in Linear that changes an issue, project, or another piece of data, you\u2019re taking an action.\n\n### How it works[\u2060](#how-it-works) We\u2019ve designed Linear so that you can take action",
+    "status": "HIT",
+    "latency_ms": 16.2
+  },
+  {
+    "id": "q06",
+    "flavor": "multi_hop",
+    "question": "How do project documents work together with projects?",
+    "expected_docs": [
+      "project-documents",
+      "projects"
+    ],
+    "retrieved_docs": [
+      "projects",
+      "project-documents",
+      "project-overview",
+      "import-issues"
+    ],
+    "top_score": 0.6916,
+    "top_chunk": "# Projects \u2013 Linear Docs",
+    "status": "HIT",
+    "latency_ms": 15.7
+  },
+  {
+    "id": "q07",
+    "flavor": "adversarial",
+    "question": "Can Linear be used to process payroll for employees?",
+    "expected_docs": [],
+    "retrieved_docs": [
+      "start-guide",
+      "conceptual-model",
+      "import-issues",
+      "teams",
+      "project-overview"
+    ],
+    "top_score": 0.4181,
+    "top_chunk": "https://www.youtube.com/watch?v=9Q5BoiIFBiY&list=PLP9v0Y4zla9vG7k8e279bSz5hUl0oXlMH&index=1) Watch a high-level walkthrough of the Linear environment. * [**Demo Linear**](https://linear.app/demo) Expl",
+    "status": "HIT",
+    "latency_ms": 15.8
+  },
+  {
+    "id": "q08",
+    "flavor": "multi_hop",
+    "question": "How can I filter issues using labels?",
+    "expected_docs": [
+      "filters",
+      "labels"
+    ],
+    "retrieved_docs": [
+      "filters",
+      "labels",
+      "conceptual-model",
+      "parent-and-sub-issues"
+    ],
+    "top_score": 0.6467,
+    "top_chunk": "# Filters \u2013 Linear Docs\n\n> **Source:** Northwind Support Copilot corpus  \n> **Original URL:** https://linear.app/docs/filters  \n> **Document ID:** filters\n\n---\n\n# Filters\n\nFilters allow you to refine ",
+    "status": "HIT",
+    "latency_ms": 15.2
+  },
+  {
+    "id": "q09",
+    "flavor": "easy",
+    "question": "How do I customize display options in Linear?",
+    "expected_docs": [
+      "display-options"
+    ],
+    "retrieved_docs": [
+      "display-options",
+      "start-guide",
+      "parent-and-sub-issues"
+    ],
+    "top_score": 0.7474,
+    "top_chunk": "# Display options \u2013 Linear Docs",
+    "status": "HIT",
+    "latency_ms": 15.3
+  },
+  {
+    "id": "q10",
+    "flavor": "multi_hop",
+    "question": "How can GitHub integration help manage imported issues?",
+    "expected_docs": [
+      "github",
+      "import-issues"
+    ],
+    "retrieved_docs": [
+      "github",
+      "import-issues"
+    ],
+    "top_score": 0.6829,
+    "top_chunk": "rnj730p/production/d41fdca27f9f36238e86e4c01d3cd9d91b078d6b-2880x1620.png?w=1440&q=95&auto=format&dpr=2)\nOverview[\u2060](#overview)\n---------------------- The GitHub integration offers two core functional",
+    "status": "HIT",
+    "latency_ms": 14.6
+  }
+]

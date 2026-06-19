@@ -2,12 +2,16 @@
 __pycache__/
 *.pyc
 
-# Chroma database
-spike/.chroma_cache_v2/
-
-# Virtual environments
-venv/
+# Virtual Environment
 .venv/
+venv/
+
+# Environment variables
+.env
+
+# Chroma database
+app/.chroma_db/
+spike/.chroma_cache_v2/
 
 # VS Code
 .vscode/

@@ -41,9 +41,7 @@ MAX_CHUNKS_PER_DOC = 2
 # ------------------------------------------------------------------
 # LLM
 # ------------------------------------------------------------------
-
-LLM_MODEL = "llama3-8b-8192"
-
+LLM_MODEL = "llama-3.3-70b-versatile"
 # Environment Variable
 # set GROQ_API_KEY=<your_key>
 

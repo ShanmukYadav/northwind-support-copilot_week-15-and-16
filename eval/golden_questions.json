@@ -1,0 +1,285 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the conceptual model used by Linear?",
+    "answer": "",
+    "expected_docs": ["conceptual-model"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q02",
+    "question": "How do I configure issue statuses?",
+    "answer": "",
+    "expected_docs": ["configuring-workflows"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q03",
+    "question": "What are project documents?",
+    "answer": "",
+    "expected_docs": ["project-documents"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q04",
+    "question": "How do labels organize issues?",
+    "answer": "",
+    "expected_docs": ["labels"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q05",
+    "question": "How do filters work?",
+    "answer": "",
+    "expected_docs": ["filters"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q06",
+    "question": "What is triage used for?",
+    "answer": "",
+    "expected_docs": ["triage"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q07",
+    "question": "How are teams created?",
+    "answer": "",
+    "expected_docs": ["teams"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q08",
+    "question": "What are notifications?",
+    "answer": "",
+    "expected_docs": ["notifications"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q09",
+    "question": "How do GitHub integrations work?",
+    "answer": "",
+    "expected_docs": ["github"],
+    "flavor": "easy"
+  },
+  {
+    "id": "q10",
+    "question": "How can imported issues be managed?",
+    "answer": "",
+    "expected_docs": ["import-issues"],
+    "flavor": "easy"
+  },
+
+  {
+    "id": "q11",
+    "question": "How are projects different from teams?",
+    "answer": "",
+    "expected_docs": ["projects", "teams"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q12",
+    "question": "How do project documents support projects?",
+    "answer": "",
+    "expected_docs": ["project-documents", "projects"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q13",
+    "question": "How can labels be combined with filters?",
+    "answer": "",
+    "expected_docs": ["labels", "filters"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q14",
+    "question": "How does GitHub help imported issues?",
+    "answer": "",
+    "expected_docs": ["github", "import-issues"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q15",
+    "question": "How does triage relate to issue statuses?",
+    "answer": "",
+    "expected_docs": ["triage", "configuring-workflows"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q16",
+    "question": "How are parent issues related to issue relations?",
+    "answer": "",
+    "expected_docs": ["parent-and-sub-issues", "issue-relations"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q17",
+    "question": "How do notifications work across projects?",
+    "answer": "",
+    "expected_docs": ["notifications", "projects"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q18",
+    "question": "How can teams organize projects?",
+    "answer": "",
+    "expected_docs": ["teams", "projects"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q19",
+    "question": "How do display options affect filters?",
+    "answer": "",
+    "expected_docs": ["display-options", "filters"],
+    "flavor": "multi_hop"
+  },
+  {
+    "id": "q20",
+    "question": "How are issue selection and labels connected?",
+    "answer": "",
+    "expected_docs": ["select-issues", "labels"],
+    "flavor": "multi_hop"
+  },
+
+  {
+    "id": "q21",
+    "question": "Can I customize issue workflows?",
+    "answer": "",
+    "expected_docs": ["configuring-workflows"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q22",
+    "question": "How should I organize work?",
+    "answer": "",
+    "expected_docs": ["projects", "teams"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q23",
+    "question": "How do I organize my issues?",
+    "answer": "",
+    "expected_docs": ["labels", "filters"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q24",
+    "question": "How can I manage incoming requests?",
+    "answer": "",
+    "expected_docs": ["triage"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q25",
+    "question": "How do I control notifications?",
+    "answer": "",
+    "expected_docs": ["notifications"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q26",
+    "question": "How do projects work?",
+    "answer": "",
+    "expected_docs": ["projects"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q27",
+    "question": "How does GitHub help?",
+    "answer": "",
+    "expected_docs": ["github"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q28",
+    "question": "How do teams collaborate?",
+    "answer": "",
+    "expected_docs": ["teams"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q29",
+    "question": "How are project documents used?",
+    "answer": "",
+    "expected_docs": ["project-documents"],
+    "flavor": "ambiguous"
+  },
+  {
+    "id": "q30",
+    "question": "How do display settings work?",
+    "answer": "",
+    "expected_docs": ["display-options"],
+    "flavor": "ambiguous"
+  },
+
+  {
+    "id": "q31",
+    "question": "Can Linear process employee payroll?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q32",
+    "question": "How do I book airline tickets?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q33",
+    "question": "How do I install Windows 11?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q34",
+    "question": "Can Linear edit photos?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q35",
+    "question": "How do I deploy Kubernetes clusters?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q36",
+    "question": "How do I order food?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q37",
+    "question": "Can Linear mine Bitcoin?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q38",
+    "question": "How do I write Java code?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q39",
+    "question": "Can Linear replace Photoshop?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  },
+  {
+    "id": "q40",
+    "question": "How do I repair my laptop?",
+    "answer": "",
+    "expected_docs": [],
+    "flavor": "adversarial"
+  }
+]

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Chroma database
+spike/.chroma_cache_v2/
+
+# Virtual environments
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
